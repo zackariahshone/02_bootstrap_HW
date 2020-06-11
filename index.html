@@ -5,23 +5,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+   
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 </head>
-<nav class="navbar-sm navbar-inverse navbar-fixed-top">
-    <div class="container-fluid">
-        <div class="navbar-header">
-            <a class="navbar-brand" href="index.html">Zackariah Shone</a>
-        </div>
-        <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">Home</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
-            <li><a href="contact.html">Contact Me</a></li>
-        </ul>
+
+<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+    <!-- Brand -->
+    <a class="navbar-brand" href="#">Navbar</a>
+  
+    <!-- Toggler/collapsibe Button -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <!-- Navbar links -->
+    <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="portfolio.html">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
     </div>
-</nav>
+  </nav>
+<div class="container">
 <div class="jumbotron jumbotron-fluid">
     <div class="container">
         <h1 class="display-3">About Me</h1>
@@ -29,8 +45,10 @@
         <hr class="my-2">
         <div class="col-sm">
         <div class="container">
-       <img src="Assets/Images/shone2.jpg" alt="" class="rounded float-left" class="img-thumbnail">
-    </div>
+          <div class="container">
+       <img src="Assets/Images/shone-index.jpg" alt="" class="rounded float-left" class="img-thumbnail">
+      </div>
+      </div>
 </div>
         <p>I am from Arkansas. I moved out to become a pro cyclist. 5 years later I am a web developer.
             A teammate of mine of mine was a software engineer for New Relic, and still is. From what he 
@@ -43,7 +61,7 @@
         </p>
     </div>
 </div>
-
+</div>
 <body>
 
 
