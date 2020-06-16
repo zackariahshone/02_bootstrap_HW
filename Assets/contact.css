@@ -6,7 +6,19 @@ body{
 }
 #headOne{
     margin-left:10%;
+    
 }
 .container{
     background-color: white;
+    padding:2%;
 }
+
+.footer {
+   
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: grey;
+    color:yellow;
+    text-align: center;
+ }
