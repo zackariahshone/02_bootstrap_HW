@@ -1,4 +1,10 @@
 /* the style for homepage(index.html)*/
+body{
+    background-image: url(./Images/blkRd.jpg);
+    background-repeat: none;
+    background-size: cover;
+    background-attachment: fixed;
+}
 #abtMe{
     line-height: 300%;
 }
@@ -15,9 +21,6 @@ img{
 }
   
 @media only screen and (max-width: 640px) {
-    body {
-      
-    }
     #img{
         width:100%;
     }
