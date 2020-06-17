@@ -1,5 +1,7 @@
-Responisve design using mostly bootstrap. 
-########################################
+##########################################
+#Responisve design using mostly bootstrap#
+##########################################
+
 My introduction to boot strap I did my best to rely on the built in styles rather than the self made 
 css. Through doing so i learned how to: 
     *build responsive columns and rows 
