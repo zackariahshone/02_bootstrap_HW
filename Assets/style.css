@@ -19,7 +19,11 @@ img{
 .portImg{
     width:100%;
 }
-  
+.myicon{
+    width: 100px;
+    height: 10px;
+    background-color: black;
+}
 .footer {
     position: fixed;
     left: 0;
@@ -28,6 +32,9 @@ img{
     background-color: grey;
     color:yellow;
     text-align: center;
+ }
+ footer a{
+     color:yellow;
  }
 @media only screen and (max-width: 640px) {
     #img{
